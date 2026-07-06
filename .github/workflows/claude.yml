@@ -56,7 +56,7 @@ jobs:
               "mcpServers": {
                   "playwright": {
                     "command": "npx",
-                    "args": ["@playwright/mcp@latest", "--allowed-origins", "http://localhost:3000;cdn.tailwindcss.com;esm.sdh"]
+                    "args": ["@playwright/mcp@latest", "--allowed-origins", "http://localhost:3000"]
                     }
                 }
               
